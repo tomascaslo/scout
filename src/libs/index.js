@@ -1,3 +1,5 @@
 export default {
-	Expect: require('./Expect')
+	Expect: require('./Expect'),
+	DOM: require('./DOM'),
+	request: require('./request')
 }

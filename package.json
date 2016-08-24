@@ -39,6 +39,7 @@
     "semantic-release": "^4.3.5",
     "source-map-loader": "^0.1.5",
     "webpack": "^1.13.2",
+    "webpack-browser-plugin": "^1.0.12",
     "webpack-validator": "^2.2.7"
   }
 }

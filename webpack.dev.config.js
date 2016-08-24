@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const validate = require('webpack-validator');
+const WebpackBrowserPlugin = require('webpack-browser-plugin');
 
 const PATHS = {
 	entry: path.join(__dirname, 'src'),
@@ -59,7 +60,8 @@ var config = {
 		}),
 		new webpack.HotModuleReplacementPlugin({
 			multiStep: true
-		})
+		}),
+		new WebpackBrowserPlugin()
 	]
 };
 
